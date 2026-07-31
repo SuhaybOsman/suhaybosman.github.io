@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Suhayb</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta property="og:title" content="Projects — Suhayb">
+<meta property="og:description" content="Security work, trading tools, and system builds by Suhayb.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://suhaybosman.github.io/projects.html">
+<meta property="og:image" content="https://suhaybosman.github.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projects — Suhayb">
+<meta name="twitter:description" content="Security work, trading tools, and system builds by Suhayb.">
+<meta name="twitter:image" content="https://suhaybosman.github.io/og-image.png">
+<meta name="description" content="Security work, trading tools, and system builds by Suhayb.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise"></div>
+
+<nav>
+  <div class="logo">S<span>—</span>Portfolio</div>
+  <button class="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <div class="navlinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="ventures.html">Ventures</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <section class="page-hero">
+    <div class="eyebrow mono">01 — Projects</div>
+    <h1 style="font-size:clamp(2.2rem,5vw,3.4rem); font-weight:700; max-width:16ch;">Things I've <span class="accent">built</span>.</h1>
+    <p class="lead">A mix of security work, trading tools, and system builds. Edit the cards below with your own case studies, links, and screenshots.</p>
+  </section>
+
+  <section>
+    <div class="project-grid">
+
+      <div class="project-card" data-reveal>
+        <div class="project-num mono">01</div>
+        <h3>ICT/SMC Trading Indicator</h3>
+        <p>A Pine Script v6 indicator implementing a 10-condition sequential ICT/SMC checklist, with a built-in historical backtesting mode for validating setups across timeframes.</p>
+        <div class="project-links">
+          <span class="pill">Pine Script</span><span class="pill">TradingView</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-num mono">02</div>
+        <h3>Penetration Testing Lab Work</h3>
+        <p>Authorized security assessments covering footprinting, vulnerability scanning, and exploitation — from footprinting to reporting, using Kali Linux and cloud-hosted targets.</p>
+        <div class="project-links">
+          <span class="pill">Kali Linux</span><span class="pill">AWS</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-num mono">03</div>
+        <h3>Forex Compounding Tracker</h3>
+        <p>A tool for tracking a structured trade-sizing challenge, optimizing risk-reward ratios and compounding logic across a fixed sequence of trades.</p>
+        <div class="project-links">
+          <span class="pill">Python</span><span class="pill">Risk Management</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-num mono">04</div>
+        <h3>E-Commerce Platform</h3>
+        <p>A full storefront build with custom theming and multi-payment integration, designed end-to-end from product catalog to checkout.</p>
+        <div class="project-links">
+          <span class="pill">Web</span><span class="pill">Payments</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-num mono">05</div>
+        <h3>Add your next project</h3>
+        <p>This card is a placeholder — drop in your next build, a link, and a short write-up of the problem it solved.</p>
+        <div class="project-links">
+          <span class="pill">Your Stack Here</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-reveal>
+        <div class="project-num mono">06</div>
+        <h3>Add another project</h3>
+        <p>Another open slot — good for a system design write-up, a CTF walkthrough, or a client build.</p>
+        <div class="project-links">
+          <span class="pill">Your Stack Here</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>Suhayb — <span id="footerEmail">···</span></footer>
+<script src="script.js"></script>
+<script>
+  const u = "cirka201056", d = "gmail.com";
+  const fe = document.getElementById("footerEmail");
+  if(fe){ fe.textContent = u + "@" + d; }
+</script>
+</body>
+</html>

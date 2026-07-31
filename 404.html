@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 — Page not found | Suhayb</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise"></div>
+
+<nav>
+  <div class="logo">S<span>—</span>Portfolio</div>
+  <button class="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <div class="navlinks">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="ventures.html">Ventures</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <section class="hero" style="min-height:78vh;">
+    <div class="eyebrow mono">404 · Not Found</div>
+    <h1 style="font-size:clamp(2.4rem,6vw,4.4rem);">This route <span class="accent">doesn't resolve</span>.</h1>
+    <p class="lead">The page you're looking for moved, was renamed, or never existed. Let's get you back on track.</p>
+    <div class="contact-links" style="justify-content:flex-start; margin-top:2rem;">
+      <a class="clink" href="index.html">Back to Home</a>
+      <a class="clink" href="projects.html">See Projects</a>
+    </div>
+  </section>
+</main>
+
+<footer>Suhayb — <span id="footerEmail">···</span></footer>
+<script src="script.js"></script>
+<script>
+  const u = "cirka201056", d = "gmail.com";
+  const fe = document.getElementById("footerEmail");
+  if(fe){ fe.textContent = u + "@" + d; }
+</script>
+</body>
+</html>
